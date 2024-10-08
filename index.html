@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zingo Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://logosandtypes.com/wp-content/uploads/2022/09/zoominfo.svg" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Zingo Food Delivery</h1>
+            <p>Delicious food delivered to your doorstep</p>
+            <a href="#menu" class="cta-button">Order Now</a>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="food-category">
+                <h3>Pizza</h3>
+                <div class="food-items">
+                    <div class="food-item">
+                        <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/50x50" alt="Pizza">
+                        <h4>Margherita</h4>
+                        <p>Classic tomato and mozzarella</p>
+                        <span class="price">$12.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="food-item">
+                        <img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pepperoni Pizza">
+                        <h4>Pepperoni</h4>
+                        <p>Spicy pepperoni and cheese</p>
+                        <span class="price">$14.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-category">
+                <h3>Burgers</h3>
+                <div class="food-items">
+                    <div class="food-item">
+                        <img src="https://media.istockphoto.com/id/1638497291/photo/crispy-chicken-patty-burger-with-lattauce-and-mayoneese-blurred-wooden-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=5rEMLkBTw6wHCpBpWo9NKPWQgGAZpRMow0c1re1pH1g=" alt="Cheeseburger">
+                        <h4>Classic Cheeseburger</h4>
+                        <p>Beef patty with cheese and veggies</p>
+                        <span class="price">$9.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="food-item">
+                        <img src="https://media.istockphoto.com/id/1183008025/photo/healthy-veggie-burger.webp?a=1&b=1&s=612x612&w=0&k=20&c=oN4oIeske84PQskWR0d3x1baVu5grISbw2BBRijGy5k=" alt="Veggie Burger">
+                        <h4>Veggie Burger</h4>
+                        <p>Plant-based patty with fresh toppings</p>
+                        <span class="price">$10.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-category">
+                <h3>Sushi</h3>
+                <div class="food-items">
+                    <div class="food-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1667545168921-34f756495d7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2FsaWZvcm5pYSUyMFJvbGx8ZW58MHx8MHx8fDA%3D" alt="California Roll">
+                        <h4>California Roll</h4>
+                        <p>Crab, avocado, and cucumber</p>
+                        <span class="price">$8.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="food-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1723809849978-31e019ac29fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U2FsbW9uJTIwU2FzaGltaXxlbnwwfHwwfHx8MA%3D%3D" alt="Salmon Sashimi">
+                        <h4>Salmon Sashimi</h4>
+                        <p>Fresh sliced salmon</p>
+                        <span class="price">$11.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Zingo</h2>
+            <p>Zingo is your go-to food delivery service, bringing a wide variety of cuisines right to your doorstep. We partner with the best local restaurants to ensure you get the highest quality meals delivered fast and fresh.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zingo Food Delivery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
